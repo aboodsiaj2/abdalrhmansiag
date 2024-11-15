@@ -1,0 +1,233 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+.post {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.post p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.post a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.875rem;
+}
+/* Container for social media links */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  /* space between the icons */
+    margin-top: 20px;
+}
+
+/* Basic style for each social media link */
+.social-icon {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #333;  /* Default background color */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Icon style */
+.social-icon i {
+    margin-right: 8px;
+    font-size: 20px;  /* Size of the icon */
+}
+
+/* Gmail button style */
+.social-icon.gmail {
+    background-color: #D44638;  /* Gmail red */
+}
+
+/* Facebook button style */
+.social-icon.facebook {
+    background-color: #4267B2;  /* Facebook blue */
+}
+
+/* Instagram button style */
+.social-icon.instagram {
+    background-color: #E1306C;  /* Instagram pink */
+}
+
+/* Hover effect: change background color and scale */
+.social-icon:hover {
+    background-color: #555;  /* Darker shade when hovered */
+    transform: scale(1.1);    /* Slightly enlarge the button */
+}
+
+/* For mobile responsiveness */
+@media (max-width: 768px) {
+    .social-media {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icon {
+        width: 200px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Container for social media links */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  /* space between the icons */
+    margin-top: 20px;
+}
+
+/* Basic style for each social media link */
+.social-icon {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #333;  /* Default background color */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Icon style */
+.social-icon i {
+    margin-right: 8px;
+    font-size: 20px;  /* Size of the icon */
+}
+
+/* Gmail button style */
+.social-icon.gmail {
+    background-color: #D44638;  /* Gmail red */
+}
+
+/* Facebook button style */
+.social-icon.facebook {
+    background-color: #4267B2;  /* Facebook blue */
+}
+
+/* Instagram button style */
+.social-icon.instagram {
+    background-color: #E1306C;  /* Instagram pink */
+}
+
+/* Hover effect: change background color and scale */
+.social-icon:hover {
+    background-color: #555;  /* Darker shade when hovered */
+    transform: scale(1.1);    /* Slightly enlarge the button */
+}
+
+/* For mobile responsiveness */
+@media (max-width: 768px) {
+    .social-media {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icon {
+        width: 200px;
+        margin-bottom: 10px;
+    }
+}
